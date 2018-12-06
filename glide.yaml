@@ -1,0 +1,33 @@
+import:
+- package: github.com/golang/protobuf
+  subpackages:
+  - proto
+  version: 73aaaa9eb61d74fbf7e256ca586a3a565b308eea
+- package: bitbucket.org/ww/goautoneg
+  version: 75cd24fc2f2c2a2088577d12123ddee5f54e0675
+- package: github.com/prometheus/client_golang
+  subpackages:
+  - text
+  - prometheus
+  - model
+  version: 223315ae31c83f5b3446320627dadfa60614a3e3
+- package: github.com/matttproud/golang_protobuf_extensions
+  subpackages:
+  - pbutil
+  version: fc2b8d3a73c4867e51861bbdd5ae3c1f0869dd6a
+- package: github.com/beorn7/perks
+  subpackages:
+  - quantile
+  version: b965b613227fddccbfffe13eae360ed3fa822f8d
+- package: github.com/prometheus/client_model
+  subpackages:
+  - go
+  version: fa8ad6fec33561be4280a8f0514318c79d7f6cb6
+- package: github.com/DataDog/datadog-go
+  subpackages:
+  - statsd
+  version: a27810dd518c69be741a7fd5d0e39f674f615be8
+- package: github.com/prometheus/procfs
+  version: c91d8eefde16bd047416409eb56353ea84a186e4
+package: github.com/armon/go-metrics
+
